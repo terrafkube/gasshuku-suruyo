@@ -4,6 +4,6 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{vue,html,js,ts,jsx,tsx}]
+[*.{vue,html,css,js,ts,jsx,tsx}]
 indent_style = tab
 tab_width = 2

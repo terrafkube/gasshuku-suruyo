@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HelloWorld from '../components/HelloWorld.vue'
+import CampResultInputPage from '../components/pages/CampResultInputPage.vue'
 
 const routes = [
 	{
 		path: '/',
 		name: 'HelloWorld',
 		component: HelloWorld
+	},
+	{
+		path: '/camp-result-input',
+		name: 'CampResultInput',
+		component: CampResultInputPage
 	}
 ]
 
